@@ -9,7 +9,7 @@ This is a minimal Next.js app showing how to connect the OpenSea MCP server to t
 - **Server route**: `src/app/api/chat/route.ts`
 - **UI**: `src/app/page.tsx` with `useChat` and tool-call inspector
 
-Full MCP docs: https://docs.opensea.io/docs/mcp
+Full MCP docs: https://docs.opensea.io/reference/mcp-overview
 
 ### What is OpenSea MCP?
 
@@ -23,7 +23,7 @@ OpenSea MCP is a hosted server that exposes tools for AI agents to access NFT co
 
 - Node 18+ and pnpm (or npm/yarn)
 - OpenSea MCP Access Token
-  - More information: https://docs.opensea.io/docs/mcp
+  - More information: https://docs.opensea.io/reference/mcp-overview
 
 ### 2) Install
 
@@ -156,6 +156,6 @@ Vercel users: add `OPENAI_API_KEY` and `OPENSEA_BEARER_TOKEN` in Project Setting
 
 ## Learn More
 
-- OpenSea MCP docs: https://docs.opensea.io/docs/mcp
+- OpenSea MCP docs: https://docs.opensea.io/reference/mcp-overview
 - Vercel AI SDK docs: https://sdk.vercel.ai
 - Next.js docs: https://nextjs.org/docs
